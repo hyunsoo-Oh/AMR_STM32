@@ -5,4 +5,14 @@
  *      Author: User
  */
 
+#include "ap.h"
 
+void apInit(void)
+{
+	MPU6050_Init();
+}
+
+void apMain(void)
+{
+
+}

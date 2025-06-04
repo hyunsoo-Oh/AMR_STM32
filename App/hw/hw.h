@@ -13,8 +13,4 @@
 
 void hwInit(void);
 
-void I2C_Write(I2C_HandleTypeDef *i2c, uint8_t addr, uint8_t reg, uint8_t data);
-void I2C_Read(I2C_HandleTypeDef *i2c, uint8_t addr, uint8_t reg, uint8_t *data);
-void I2C_ReadBytes(I2C_HandleTypeDef *i2c, uint8_t addr, uint8_t reg, uint8_t *data, uint8_t len);
-
 #endif /* HW_HW_H_ */

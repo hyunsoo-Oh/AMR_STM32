@@ -25,7 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "ap.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -96,7 +96,8 @@ int main(void)
   MX_USART6_UART_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-
+  apInit();
+  apMain();
   /* USER CODE END 2 */
 
   /* Infinite loop */
